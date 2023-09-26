@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuja Da Corrida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        /* ANIMACOES */
+
+        @keyframes myAnim {
+            0% {
+                animation-timing-function: ease-out;
+                transform: scale(1);
+                transform-origin: center center;
+            }
+
+            10% {
+                animation-timing-function: ease-in;
+                transform: scale(0.91);
+            }
+
+            17% {
+                animation-timing-function: ease-out;
+                transform: scale(0.98);
+            }
+
+            33% {
+                animation-timing-function: ease-in;
+                transform: scale(0.87);
+            }
+
+            45% {
+                animation-timing-function: ease-out;
+                transform: scale(1);
+            }
+        }
+
+
+        .download-link {
+            background-color: #0dff00;
+            color: #020202;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+
+            animation: myAnim 2s ease 0s infinite normal forwards;
+        }
+
+        .download-link a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+
+        .download-link:hover {
+            background-color: #028d25;
+        }
+
+        .course-section,
+        .game-section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .course-section h2,
+        .game-section h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .course-section p,
+        .game-section p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .submit-button {
+            background-color: #3cff00;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+
+            animation: myAnim 2s ease 0s infinite normal forwards;
+        }
+
+        .submit-button:hover {
+            background-color: #018515;
+        }
+
+        .main {
+            background-image: url('./bg-moedas.jpg');
+            text-align: center;
+            padding: 40px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img style="max-width: 100%;" src="./Banner.png" alt="banner fuja da corrida">
+    </header>
+
+
+    <div class="main">
+        <div
+            style="border: 2px solid black;border-radius: 30px;margin: 10px;padding: 10px;background-color: #ffffffb3;">
+            <h3>Baixe o eBook "Pai Rico, Pai Pobre" Gratuitamente</h3>
+            <p>Aprenda sobre finanças pessoais com o best-seller de Robert Kiyosaki.</p>
+            <button class="download-link"><a href="./Pai Rico, Pai Pobre - Robert Kiyosaki.pdf" download>Baixar
+                    Agora</a></button>
+        </div>
+        <div style="border: 2px solid black;border-radius: 30px;background-color: #ffffffb3;margin: 10px;"
+            class="course-section">
+            <h3>Saia De Vez Da Corrida Dos Ratos</h3>
+            <p>Aprenda a Investir e Gerenciar Seu Dinheiro Com Nosso Kit Especial</p>
+            <ul>
+                <li>E-Book Negocio Do Seculo XXI</li>
+                <li>E-Book Empreendedor Rico</li>
+                <li>Jogo CashFlow Em Portugues</li>
+            </ul>
+            <a href="https://pay.kiwify.com.br/1XY5LSK" target="_blank" rel="noopener noreferrer">
+                <img style="max-width: 100%;" src="./Banner conteudo com preco.png" alt=""></a>
+            <button class="download-link"><a href="https://pay.kiwify.com.br/1XY5LSK" target="_blank"
+                    rel="noopener noreferrer">Sair Da Corrida</a></button>
+        </div>
+    </div>
+
+    <footer>
+        <h5 style="text-align: center;">Desenvolvido Por <a style="text-decoration: none;" href="http://wa.link/0ui6ij"
+                target="_blank" rel="noopener noreferrer">LorenDev</a></h5>
+    </footer>
+
+</body>
+
+
+<body>
+
+</body>
+
+</html>
